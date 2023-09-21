@@ -8,7 +8,7 @@ int main(){
 cout<<"THE OPERATIONS IN THE CALCULATOR ARE::"<<endl<<endl<<endl;
 cout<<"the arithmetic operations are:"<<endl<<endl;
 cout<<"1.additon"<<endl<<"2.subtraction"<<endl<<"3.multilication"<<endl<<"4.division"<<endl<<"5.power"<<endl<<endl;
-cout<<"the trignometric operations are"<<endl<<"6.sine"<<endl<<"8.cosine"<<endl<<"9.tane"<<endl<<"10.sec"<<endl<<"11.cosec"<<endl<<"12.cot"<<endl;
+cout<<"the trignometric operations are"<<endl<<"6.sine"<<endl<<"8.cosine"<<endl<<"9.tane"<<endl;
 cout<<"enter the operation you want to perform"<<endl;
 int op;
 cin>>op;
@@ -71,6 +71,13 @@ cout<<"enter the value of angle"<<endl;
 cin>>val12;
 cout<<cos(val12)<<endl;
 break;
+case 9:
+double val13;
+cout<<"enter the value of angle"<<endl;
+cin>>val13;
+cout<<tan(val13)<<endl;
+break;
+
 
 
 
